@@ -6,3 +6,7 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("reconocer"))
         self.assertTrue(is_palindrome("anilina"))
         self.assertTrue(is_palindrome("menem"))
+    def test_frases_palindromas(self):
+        self.assertTrue(is_palindrome("La ruta natural"))
+        self.assertTrue(is_palindrome("Amor a Roma"))
+        self.assertTrue(is_palindrome("Yo hago yoga hoy"))
